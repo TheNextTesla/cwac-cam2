@@ -125,6 +125,11 @@ public class CameraConstraints {
       .previewRFCSizeWhitelist(new Size(1280,720))
       .build());
     add(new Builder()
+      .manufacturer("motorola")
+      .product("quark")
+      .supportsCameraTwo(false)
+      .build());
+    add(new Builder()
       .manufacturer("NVIDIA")
       .product("sb_na_wf")
       .supportsCameraTwo(false)
